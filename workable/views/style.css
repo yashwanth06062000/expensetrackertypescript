@@ -1,0 +1,158 @@
+.formitem{
+    margin: 8px;
+}
+.signupform{
+    background-color: black;
+    color:white;
+    border: 2px white;
+    border-radius: 5px;
+    width: fit-content;
+    text-align: center;
+    
+}
+.expenseform{
+    background-color: black;
+    color:white;
+    border: 2px white;
+    border-radius: 5px;
+    width: fit-content;
+    text-align: center;
+    
+}
+.expenses{
+    /* border:2px solid white; */
+    width: fit-content;
+    border-radius: 10px;
+}
+.expensediv{
+    display: flex;
+    border-radius: 5px;
+    margin:5px;
+    padding: 5px;
+    background-color: white;
+    color:black;
+    width: fit-content;
+    border-radius: 10px;
+}
+.desc1{
+    margin:2px;
+    border:2px solid black ;
+    padding: 2px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.category{
+    border:2px solid black ;
+    margin:5px;
+    padding: 2px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.money{
+    border:2px solid black ;
+    margin:5px;
+    padding: 2px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.dltexp{
+    background-color: red;
+    color: white;
+    margin: 5px;
+    height:40px;
+
+}
+#Signupdiv{
+    display: flex;
+}
+.paymentbtn{
+    height: 30px;
+    width: 200px;
+    background-color: rgb(4, 0, 255);
+    color :white;
+    position: fixed;
+    top: 5px;
+    right:75px;
+  } 
+  .signout{
+    height: 30px;
+    width: 70px;
+    background-color:white;
+    color :red;
+    position: fixed;
+    top: 5px;
+    right: 5px;
+  } 
+  .reporte{
+    height: 30px;
+    width: 70px;
+    background-color:white;
+    color :red;
+    position: fixed;
+    top: 5px;
+    right: 150px;
+
+  }
+.active{
+    background-color: black;
+    color:white;
+}
+.active1{
+    background-color: white;
+    color:black;
+
+}
+.leaderboard{
+    border:2px solid black;
+    border-radius: 5px;
+}
+.leaderboard{
+    background-color: white;
+    border:2px solid black;
+    border-radius: 3px;
+    width: fit-content;
+    color: black;
+}
+.hide{
+    display: none;
+}
+.forgotpassword{
+    border:2px solid black;
+    width: fit-content;
+    color:white;
+    background-color: black;
+}
+#sendreset{
+    background-color: green;
+    color:white;
+    
+}
+.report{
+    border:2px solid black;
+    border-radius: 5px;
+    height:fit-content;
+    width:100%;
+}
+.download{
+    margin-top: 1rem;
+    position: fixed;
+    right:50%;
+
+}
+.back{
+    margin-top: 1rem;
+    position: fixed;
+    right:45%;
+}
+#pagenation{
+    display: flex;
+}
+.page{
+    border: 1px solid red;
+    width: fit-content;
+    height: fit-content;
+    background-color: white;
+    color:black;
+   margin:5px;
+
+
+}

@@ -7,7 +7,7 @@ import user from '../models/usersignup';
 import dotenv from 'dotenv';
 dotenv.config();
 
-export default function authenticate async(req, res, next) => {
+export default function authenticate async(req, res, next) {
     try {
         const token = req.header('authorization')
         console.log(token)

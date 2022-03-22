@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Report page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="report" id="report">
+        <form action="">
+            <label for="Period">Period:</label>
+            <select name="period" id="period">
+                <option value="Today">Today</option>
+                <option value="weekly">Weekly</option>
+                <option value="Monthly">Monthly</option>
+              </select>
+        </form>
+        <div id="reportexpenses"></div>
+    </div>
+    <button class="download" id="download">Download Report</button>
+    <button class="back" id="back">Back</button>
+    <script src="report.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</body>
+</html>
